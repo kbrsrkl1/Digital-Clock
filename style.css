@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Pacifico&display=swap');
+
+html,body{
+    height: 100%;
+    object-fit : cover;
+}
+
+
+body{
+    background-size: cover;
+    text-align: center; 
+}
+.logo{
+  text-align: center;
+  margin-top: -50%;
+}
+
+.logo b{
+    font: 150 7vh "Pacifico";
+    color: #5f6f94;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #384259,0 0 0.5em #384259,0 0 0.1em #384259, 0 10px 3px #000;
+}
+
+
+.logo b span{
+    animation:blink linear infinite 2s
+}
+
+
+.logo b span:nth-of-type(2)
+{
+    animation: blink linear infinite 3s;
+}
+
+@keyframes blink{
+78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+79% {
+    color: #333;
+}
+
+88% {
+    text-shadow: none;
+}
+
+81% {
+    color:inherit;
+    text-shadow: none;
+}
+
+82% {
+    color: #333;
+    text-shadow: none;
+}
+
+83% {
+    color: #333;
+    text-shadow: none;
+}
+
+92% {
+    color: inherit;
+    text-shadow: inherit;
+}
+
+92.5% {
+    color: inherit;
+    text-shadow: inherit;
+}
+
+ }
+
