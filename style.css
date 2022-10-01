@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Pacifico&display=swap');
 
 body{
-    background-image: url(./img/pexels-philip-ackermann-878141.jpg);  
+    background-image: url(./img/pexels-pah-ni-zal-8921288.jpg) ;  
+    background-size: cover;
+    margin: 0;
 }
 
 .logo {
   text-align: center;
-  margin-top: -50%;
+  margin-top: -20%;
 }
 
 .logo b{
     font: 150 7vh "Pacifico";
-    color: #a7b5d4;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #384259,0 0 0.5em #384259,0 0 0.1em #384259, 0 10px 3px #000;
+    color: #ac8871;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #b6825d,0 0 0.5em #b68663,0 0 0.1em #b67a50 , 10px 3px #000 ;
 }
 
 
@@ -79,7 +81,7 @@ body{
 .clock-items{
     text-align:center;
     width: 15%;
-    background-color: rgb(247, 239, 239);
+    background-color: #eedcce;
     color: #000;
     border-radius: 150px;
     margin-right: 5%;

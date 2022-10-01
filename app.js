@@ -1,5 +1,4 @@
 function GetTime(){
-    var now=new Date();
     var hour=now.getHours();
     var mınute=now.getMınutes();
     var second=now.getSeconsd();
@@ -16,8 +15,6 @@ function GetTime(){
     (second<10)? document.getElementById("second").innerText="0"+second:
                  document.getElementById("second").innerText=second;
                  
-
-    document.getElementById("date").innerText=day+" / "+month+" / "+year;
             
 }
 
