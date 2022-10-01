@@ -7,13 +7,15 @@ body{
 }
 
 .logo {
-  text-align: center;
-  margin-top: -15%;
+    position: absolute;
+    text-align: center;
+    margin-top: -30%;
+    margin-left: 37%;
 }
 
 .logo b{
     font: 150 7vh "Pacifico";
-    color: #ac8871;
+    color: #634835;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #b6825d,0 0 0.5em #b68663,0 0 0.1em #b67a50 , 10px 3px #000 ;
 }
 
@@ -76,7 +78,9 @@ body{
     align-items: center;
     align-content: center;
     font-size: 10px; 
-}
+    margin-left: 35%;
+    margin-top: 15%;
+} 
 
 .clock-items{
     text-align:center;
@@ -84,7 +88,7 @@ body{
     background-color: #eedcce;
     color: #000;
     border-radius: 150px;
-    margin-right: 5%;
+   
     padding-top: 20px;
     padding-bottom: 20px;
     font-family:'Orbitron',sans-serif;
